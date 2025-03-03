@@ -5,5 +5,4 @@ async function status(request, response) {
   console.log(result.rows);
   response.status(200).json({ chave: "São acima da média" });
 }
-
 export default status;
