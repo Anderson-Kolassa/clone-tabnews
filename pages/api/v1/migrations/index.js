@@ -39,7 +39,7 @@ export default async function migrations(request, response) {
     response.status(200).json(migratedMigrations);
 
     return response.status(405).end();
-
+  }
 }
 
 /*import migrationRunner from "node-pg-migrate";
