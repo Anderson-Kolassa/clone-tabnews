@@ -15,6 +15,8 @@ try {
     /BEGIN PRIVATE KEY/,
   ];
 
+  const API_KEY = "123";
+
   const found = patterns.some((pattern) => pattern.test(diff));
 
   if (found) {
